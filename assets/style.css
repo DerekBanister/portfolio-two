@@ -5,6 +5,9 @@
 #myWork {
     margin-left: 50px;
     margin-right: 50px;
+    border: solid black 5px;
+    border-radius: 1%;
+    padding: 10px;
 }
 #caption {
     color: white;
@@ -66,21 +69,22 @@ P {
   .navbar {
       padding: 10px;
   }
-  #work {
-      text-decoration: underline;
-      color: black;
-      font-size: 40px;
+  #text {
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 50px;
 
   }
-  #myWork {
-    background: white;
-    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-    color: white;
-    box-shadow: 20px 20px rgba(0,0,0,.15);
-    transition: all .4s ease;
+  .btn:hover{
+    opacity: 0.9;
   }
-  #myWork:hover {
-    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-    box-shadow: 10px 10px rgba(0,0,0,.25);
+  #caption {
+    display: none;
   }
+#resume {
+  border: solid black 5px;
+    border-radius: 1%;
+}
 

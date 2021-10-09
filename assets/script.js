@@ -16,3 +16,8 @@ function appendAboutMe(){
     aboutMe.append(myText, myPic)
     jumbo.append(aboutMe)
 }
+//changes header text based on slide showing
+$('.carousel').on('slid.bs.carousel', function () {
+    $('#text').html($('.active > .carousel-caption').html());
+
+ });
