@@ -5,13 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derek Banister</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 
 <body>
-    
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Derek Banister</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+            </ul>
+      </nav>
+      <div class="jumbotron">
+        <button type="button" class="btn btn-lg btn-primary">Learn More About Me</button>
+      </div>
+
+      <h2 id="work">My Work</h2>
+
+      <div id="gifs" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#gifs" data-slide-to="0" class="active"></li>
+          <li data-target="#gifs" data-slide-to="1"></li>
+          <li data-target="#gifs" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://alix1713.github.io/tvremote/" target="_blank">
+         <img  src="images/popcorn1.gif" class="d-block w-100" alt="Slide 0"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://derekbanister.github.io/weather-dashboard/" target="_blank">
+            <img src="images/weathergif.gif" class="d-block w-100" alt="Slide 1"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://derekbanister.github.io/code-quiz/" target="_blank">
+            <img src="images/Code Quiz.gif" class="d-block w-100"  alt="Slide 2"></a>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#gifs" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#gifs" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+
+<!-- 
+    <div class="carousel-item active">
+        <a href="https://alix1713.github.io/tvremote/" target="_blank">
+        <img  src="images/popcorn1.gif" class="d-block w-100" alt="Slide 0"></a>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Grab your Remote</h5>
+            <p>Movie Reccomendation Application</p>
+        </div> -->
 
 
 
@@ -21,15 +83,8 @@
 
 
 
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="assets/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    <script src="assets/script.js"></script>
 </body>
 </html>
