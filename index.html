@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derek Banister</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
@@ -15,22 +16,26 @@
         <a class="navbar-brand">Derek Banister</a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" href="#">About Me</a>
+                <a class="nav-link active" href="#aboutMe">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Projects</a>
+                <a class="nav-link" href="#myWork">My Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Resume</a>
               </li>
             </ul>
       </nav>
-      <div class="jumbotron">
-        <button type="button" class="btn btn-lg btn-primary">Learn More About Me</button>
+
+      <div class="jumbotron text-center jumbotron-fluid">
+        <div class="container text-center" id ="aboutMe">
+        <button type="button" class="btn btn-lg btn-primary text-center">Learn More About Me</button>
+      </div>
       </div>
 
       <h2 id="work">My Work</h2>
 
+      <div class="container-sm" id="myWork">
       <div id="gifs" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -43,15 +48,24 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <a href="https://alix1713.github.io/tvremote/" target="_blank">
-         <img  src="images/popcorn1.gif" class="d-block w-100" alt="Slide 0"></a>
+         <img  src="images/popcorn1.gif" class="d-block w-100 pics" alt="Slide 0"></a>
+         <div class="carousel-caption d-none d-md-block" id = "caption">
+         <h5>Grab Your Remote!</h5>
+        </div>
           </div>
           <div class="carousel-item">
             <a href="https://derekbanister.github.io/weather-dashboard/" target="_blank">
-            <img src="images/weathergif.gif" class="d-block w-100" alt="Slide 1"></a>
+            <img src="images/weathergif.gif" class="d-block w-100 pics" alt="Slide 1"></a>
+            <div class="carousel-caption d-none d-md-block" id = "caption">
+            <h5>Weather Dashboard</h5>
+        </div>
           </div>
           <div class="carousel-item">
             <a href="https://derekbanister.github.io/code-quiz/" target="_blank">
-            <img src="images/Code Quiz.gif" class="d-block w-100"  alt="Slide 2"></a>
+            <img src="images/Code Quiz.gif" class="d-block w-100 pics"  alt="Slide 2"></a>
+            <div class="carousel-caption d-none d-md-block" id = "caption">
+            <h5>Coding Quiz</h5>
+        </div>
           </div>
         </div>
       
@@ -62,20 +76,27 @@
         <a class="carousel-control-next" href="#gifs" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
-      
       </div>
+</div>
+<br>
 
-
-<!-- 
-    <div class="carousel-item active">
-        <a href="https://alix1713.github.io/tvremote/" target="_blank">
-        <img  src="images/popcorn1.gif" class="d-block w-100" alt="Slide 0"></a>
-        <div class="carousel-caption d-none d-md-block">
-            <h5>Grab your Remote</h5>
-            <p>Movie Reccomendation Application</p>
-        </div> -->
-
-
+<footer class="bg-light text-center text-white">
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+        <a href="https://www.linkedin.com/in/derek-banister/" target="blank" class="btn btn-floating m-1 fa fa-linkedin"></a>
+        <a href="https://github.com/DerekBanister"  target="blank" class="btn btn-floating m-1 fa fa-github"></a>
+        <a href="https://www.instagram.com/ddboisback/?hl=en" target="blank" class="btn btn-floating m-1 fa fa-instagram"></a>
+        
+  <div class="columns download">
+    <p>
+       <a href="images/resume.pdf" class="button" download><i class="fa fa-download"></i>Download My Resume</a>
+    </p>
+ </div>
+</section>
+</div>
+  </footer>
+  
 
 
 
