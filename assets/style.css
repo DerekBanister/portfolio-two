@@ -36,6 +36,12 @@ P {
     text-decoration: none;
     border-radius: 50%;
   }
+  .fa-download {
+    color: white;
+  }
+ #dwnload {
+    color: white;
+  }
   
   .fa:hover {
     opacity: 0.7;
@@ -55,7 +61,7 @@ P {
   }
   #derek{
       font-size: 50px;
-      color: skyblue;
+      color: #007bb5;
       font-weight: bold;
   }
   .jumbotron {
@@ -73,7 +79,7 @@ P {
     text-align: center;
     justify-content: center;
     text-decoration: underline;
-    color: black;
+    color: #007bb5;
     font-size: 50px;
 
   }
@@ -84,7 +90,72 @@ P {
     display: none;
   }
 #resume {
+  background-image: url("../images/background3.jpg");
   border: solid black 5px;
     border-radius: 1%;
+}
+.nav-link {
+  color: #007bb5;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.meBtn {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #007bb5;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.meBtn:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.meBtn:active {
+  color: white;
+}
+
+.meBtn:active:after {
+  background: transparent;
+}
+
+.meBtn:hover:before {
+  opacity: 1;
+}
+
+.meBtn:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
 
