@@ -1,4 +1,6 @@
-
+* {
+  font-family: 'Crimson Text', serif;
+}
 #work {
     text-align: center;
 }
@@ -42,6 +44,9 @@ P {
  #dwnload {
     color: white;
   }
+  #dwnload:hover {
+    opacity: 0.8;
+  }
   
   .fa:hover {
     opacity: 0.7;
@@ -60,6 +65,7 @@ P {
     color: white;
   }
   #derek{
+    font-family: 'Merriweather', serif;
       font-size: 50px;
       color: #007bb5;
       font-weight: bold;
@@ -69,11 +75,13 @@ P {
       background-repeat: no-repeat;
   }
   .aspire {
+    font-style: italic;
       opacity: 0.8;
       font-size: 20px;
   }
   .navbar {
-      padding: 10px;
+      padding: 8px;
+      margin-bottom: 0px;
   }
   #text {
     text-align: center;
@@ -95,6 +103,8 @@ P {
     border-radius: 1%;
 }
 .nav-link {
+  font-size: 20px;
+  opacity: 0.9;
   color: #007bb5;
   text-decoration: underline;
   font-weight: bold;
