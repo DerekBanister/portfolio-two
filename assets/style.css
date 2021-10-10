@@ -5,9 +5,9 @@
     text-align: center;
 }
 #myWork {
-    margin-left: 50px;
-    margin-right: 50px;
-    border: solid black 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: solid #007bb5 2px;
     border-radius: 1%;
     padding: 10px;
 }
@@ -72,6 +72,7 @@ P {
   }
   .jumbotron {
       background-image: url("../images/background3.jpg");
+      background-size: cover;
       background-repeat: no-repeat;
   }
   .aspire {
@@ -99,8 +100,11 @@ P {
   }
 #resume {
   background-image: url("../images/background3.jpg");
-  border: solid black 5px;
-    border-radius: 1%;
+  background-size: cover;
+  height: 170px;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .nav-link {
   font-size: 20px;
@@ -168,4 +172,8 @@ P {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+.db {
+  border-radius: 50%;
+}
+
 
