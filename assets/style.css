@@ -16,9 +16,9 @@
     font-weight: bold;
 }
 .carousel-item {
-    height: 600px;
+  height: 600px;
   }
-  
+
   .pics {
       position: absolute;
       top: 0;
@@ -128,7 +128,8 @@ P {
 
 .meBtn:before {
   content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8 
+, #ff0000);
   position: absolute;
   top: -2px;
   left:-2px;
@@ -167,6 +168,33 @@ P {
   border-radius: 10px;
 }
 
+
+
+@media (max-width: 575.98px) { 
+
+  .carousel-item-active {
+    height: 400px;}
+    
+}
+
+@media (max-width: 767.98px) { 
+  .carousel-item {
+    height: 400px;}
+ }
+
+@media (max-width: 991.98px) { 
+  .carousel-item {
+    height: 500px;}
+}
+
+
+@media (max-width: 1199.98px) { 
+  .carousel-item-active {
+    height: 600px;}
+ }
+
+
+
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
@@ -175,5 +203,3 @@ P {
 .db {
   border-radius: 50%;
 }
-
-
