@@ -38,16 +38,9 @@ P {
     text-decoration: none;
     border-radius: 50%;
   }
-  .fa-download {
-    color: white;
-  }
- #dwnload {
-    color: white;
-  }
   #dwnload:hover {
     opacity: 0.8;
   }
-  
   .fa:hover {
     opacity: 0.7;
   }
@@ -66,7 +59,7 @@ P {
   }
   #derek{
     font-family: 'Merriweather', serif;
-      font-size: 50px;
+      font-size: 45px;
       color: #007bb5;
       font-weight: bold;
   }
@@ -99,8 +92,7 @@ P {
     display: none;
   }
 #resume {
-  background-image: url("../images/background3.jpg");
-  background-size: cover;
+  background-color: white;
   height: 170px;
   padding: 0px;
   margin-bottom: 0px;
@@ -174,4 +166,19 @@ P {
 }
 .db {
   border-radius: 50%;
+}
+.email {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bb5;
+}
+.download {
+  padding: 15px;
+  color: #007bb5;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-item {
+    height: 350px;
+  }
 }
